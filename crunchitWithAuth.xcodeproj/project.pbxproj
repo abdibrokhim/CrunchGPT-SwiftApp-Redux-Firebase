@@ -54,6 +54,7 @@
 		FF2AB5C62A6FAFF0008507DD /* ChatService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2AB5C52A6FAFF0008507DD /* ChatService.swift */; };
 		FF2AB5C92A6FB64B008507DD /* ChatListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2AB5C82A6FB64B008507DD /* ChatListView.swift */; };
 		FF2AB5CB2A6FBB09008507DD /* ChatListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2AB5CA2A6FBB09008507DD /* ChatListViewModel.swift */; };
+		FF2AB5CE2A704135008507DD /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = FF2AB5CC2A7040FC008507DD /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +79,7 @@
 		FF2AB5C52A6FAFF0008507DD /* ChatService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatService.swift; sourceTree = "<group>"; };
 		FF2AB5C82A6FB64B008507DD /* ChatListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListView.swift; sourceTree = "<group>"; };
 		FF2AB5CA2A6FBB09008507DD /* ChatListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListViewModel.swift; sourceTree = "<group>"; };
+		FF2AB5CC2A7040FC008507DD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +149,7 @@
 				FF2AB5622A6ECE30008507DD /* Preview Content */,
 				FF2AB5B62A6ED120008507DD /* store.swift */,
 				FF2AB5B82A6ED138008507DD /* models.swift */,
+				FF2AB5CC2A7040FC008507DD /* README.md */,
 			);
 			path = crunchitWithAuth;
 			sourceTree = "<group>";
@@ -349,6 +352,7 @@
 			files = (
 				FF2AB5642A6ECE30008507DD /* Preview Assets.xcassets in Resources */,
 				FF2AB56B2A6ECE6B008507DD /* GoogleService-Info.plist in Resources */,
+				FF2AB5CE2A704135008507DD /* README.md in Resources */,
 				FF2AB5612A6ECE30008507DD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
