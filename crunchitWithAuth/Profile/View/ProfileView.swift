@@ -29,6 +29,8 @@ struct ProfileView: View {
                         .background(.gray.opacity(0.2))
                         .cornerRadius(10)
                     
+                    Spacer()
+                    
                     Button {
                         Task {
                             store.dispatch(.isLoading(true))
@@ -55,6 +57,9 @@ struct ProfileView: View {
                         }
                     }
                 }
+                .padding()
+                
+                FeedbackView(user: user)
                 
                 ChatListView(user: user)
             }

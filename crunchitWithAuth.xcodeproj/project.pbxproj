@@ -55,6 +55,9 @@
 		FF2AB5C92A6FB64B008507DD /* ChatListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2AB5C82A6FB64B008507DD /* ChatListView.swift */; };
 		FF2AB5CB2A6FBB09008507DD /* ChatListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2AB5CA2A6FBB09008507DD /* ChatListViewModel.swift */; };
 		FF2AB5CE2A704135008507DD /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = FF2AB5CC2A7040FC008507DD /* README.md */; };
+		FF307D0C2A732812005CEE81 /* FeedbackService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF307D0B2A732812005CEE81 /* FeedbackService.swift */; };
+		FF307D0E2A73282B005CEE81 /* FeedbackViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF307D0D2A73282B005CEE81 /* FeedbackViewModel.swift */; };
+		FF307D132A732D37005CEE81 /* FeedbackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF307D122A732D37005CEE81 /* FeedbackView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +83,9 @@
 		FF2AB5C82A6FB64B008507DD /* ChatListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListView.swift; sourceTree = "<group>"; };
 		FF2AB5CA2A6FBB09008507DD /* ChatListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListViewModel.swift; sourceTree = "<group>"; };
 		FF2AB5CC2A7040FC008507DD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FF307D0B2A732812005CEE81 /* FeedbackService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackService.swift; sourceTree = "<group>"; };
+		FF307D0D2A73282B005CEE81 /* FeedbackViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackViewModel.swift; sourceTree = "<group>"; };
+		FF307D122A732D37005CEE81 /* FeedbackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +145,7 @@
 		FF2AB55B2A6ECE2F008507DD /* crunchitWithAuth */ = {
 			isa = PBXGroup;
 			children = (
+				FF307D0A2A7327F6005CEE81 /* Feedback */,
 				FF2AB5BA2A6ED164008507DD /* Chat */,
 				FF2AB5B32A6ED0B8008507DD /* Profile */,
 				FF2AB5A32A6ECF6C008507DD /* Authentication */,
@@ -260,6 +267,40 @@
 			path = Service;
 			sourceTree = "<group>";
 		};
+		FF307D0A2A7327F6005CEE81 /* Feedback */ = {
+			isa = PBXGroup;
+			children = (
+				FF307D112A732D22005CEE81 /* View */,
+				FF307D102A732D13005CEE81 /* ViewModel */,
+				FF307D0F2A732D0A005CEE81 /* Service */,
+			);
+			path = Feedback;
+			sourceTree = "<group>";
+		};
+		FF307D0F2A732D0A005CEE81 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				FF307D0B2A732812005CEE81 /* FeedbackService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		FF307D102A732D13005CEE81 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FF307D0D2A73282B005CEE81 /* FeedbackViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FF307D112A732D22005CEE81 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FF307D122A732D37005CEE81 /* FeedbackView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -365,8 +406,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF2AB5B22A6ED085008507DD /* ContentViewModel.swift in Sources */,
+				FF307D132A732D37005CEE81 /* FeedbackView.swift in Sources */,
 				FF2AB5B52A6ED0C9008507DD /* ProfileView.swift in Sources */,
+				FF307D0C2A732812005CEE81 /* FeedbackService.swift in Sources */,
 				FF2AB5A82A6ECFB0008507DD /* AuthService.swift in Sources */,
+				FF307D0E2A73282B005CEE81 /* FeedbackViewModel.swift in Sources */,
 				FF2AB5CB2A6FBB09008507DD /* ChatListViewModel.swift in Sources */,
 				FF2AB5AC2A6ED01E008507DD /* SignUpView.swift in Sources */,
 				FF2AB5C92A6FB64B008507DD /* ChatListView.swift in Sources */,

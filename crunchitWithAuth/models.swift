@@ -53,6 +53,7 @@ enum AppError {
     case somethingWentWrong
     case signUpSuccess
     case signInSuccess
+    case feedbackSuccess
 }
 
 extension AppError {
@@ -74,6 +75,8 @@ extension AppError {
             return "Signed In successfully!"
         case .signUpSuccess:
             return "Signed Up successfully!"
+        case .feedbackSuccess:
+            return "Feedback sent successfully!"
         }
     }
 }
@@ -104,3 +107,10 @@ struct FileData: Identifiable, Codable {
     let url: String?
 }
 
+// Feedback model
+struct Feedback: Identifiable, Codable {
+    let id: String
+    let message: String
+    let user: User
+    let dateCreated: Date
+}
